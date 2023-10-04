@@ -1,0 +1,183 @@
+.header
+{
+	display:flex;
+	flex-direction:row;
+	flex-flow:row-reverse;
+	position:relative;
+	bottom:55px;
+}
+a
+{
+	text-decoration:none;
+	color:white;
+}
+.farleft
+{
+	display:flex;
+	flex-flow:row;
+}
+body
+{
+	background-color:#131020;
+	color:white;
+	image-rendering:pixelated;
+}
+#body
+{
+	top:90px;
+}
+.marginleft
+{
+	margin-left:20px;
+}
+.headerbase
+{
+	position:relative;
+	color:white;
+	background-color:#231d3a;
+	max-height:50px;
+	padding-left:12px;
+	padding-right:6px;
+	bottom:10px;
+	min-width:100%;
+	right:10px;
+	border-bottom:rgba(255,255,255,0.2) 2px solid;
+}
+#simpleunderline
+{
+	font-size:30px;
+	position:relative;
+	bottom:40px;
+}
+.moveup
+{
+	position:relative;
+	bottom:60px;
+}
+.enlargedfont
+{
+	font-size:30px;
+}
+.box
+{
+	border:rgba(255,255,255,0.25) 2px solid;
+	background:rgba(255,255,255,0.125);
+	padding-left:12px;
+	padding-right:12px;
+	display:inline-block;
+	max-width:300px;
+	text-align:center;
+	min-height:180px;
+}
+.boxtitle
+{
+	text-align:center;
+}
+.boxes
+{
+	margin-right:20px;
+}
+.boxbase
+{
+	display:flex;
+	flex-direction:row;
+}
+.darkbox
+{
+	margin-top:20px;
+	display:inline-block;
+	border:rgba(255,255,255,0.125) 2px solid;
+	background:rgba(255,255,255,0.0625);
+	padding:12px;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 20px;
+	border-left:rgba(255,255,255,0.2) 2px solid;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background:#231d3a;
+	border:rgba(255,255,255,0.2) 2px solid;
+	transition:250ms;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background:#2e264d;
+	border:rgba(255,255,255,0.4) 2px solid;
+	transition:250ms;
+  }
+.indented
+{
+	position:relative;
+	left:20px;
+	max-width:99%;
+}
+#boxed1
+{
+	display:none;
+}
+.boxexpand
+{
+	border:rgba(255,255,255,0.25) 2px solid;
+	background:rgba(255,255,255,0.125);
+	padding:12px;
+	display:inline-block;
+	text-align:center;
+	min-width:220px;
+	max-width:220px;
+}
+.nomargin
+{
+	font-size:1px;
+}
+.notinline
+{
+	display:flex;
+	flex-direction:column;
+}
+#boxed2
+{
+	display:none;
+}
+#boxed3
+{
+	display:none;
+}
+#boxed4
+{
+	display:none;
+}
+#boxed5
+{
+	display:none;
+}
+.row
+{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-evenly;
+}
+.badstar
+{
+	position:relative;
+	left:30px;
+}
+.rowed
+{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+}
+ul
+{
+	list-style-type: none;
+}
+.badstar2
+{
+	position:relative;
+	right:10px;
+}
