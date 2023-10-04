@@ -21,7 +21,7 @@ body
 	background-color:#131020;
 	color:white;
 	image-rendering:pixelated;
-	font-family:Arial,
+	font-family:'Arial';
 }
 #body
 {
