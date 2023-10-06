@@ -22,7 +22,33 @@
       </div>
     </div>
     <div id="body">
-      <h1>Sorry, nothing here for now</h1>
+      <h3>Internal Notes</h3>
+        <b>Rendering</b>
+        <div class="indented">
+          <p>Even though the WorldRenderer precision loss bug is interesting to look at, it's an insane annoyance, so that's why that's gone in MCUnlocked.</p>
+          <p>Except for that, everything's completely as the game would react to at high distances, like stretched redstone, pathfinding precision loss, teleporting TNT, etc.</p>
+          <p>Some versions have special revisions. These revisions are mainly on more "major" versions like 1.2.5, b1.7.3, etc, and are mainly focused on fixing rendering bugs up to a semi 1.8 level.</p>
     </div>
+    <b>Infdev+ and b1.8 - 1.2.5</b>
+    <div class="indented">
+      <p>Infdev+ is closed source, has no mappings, and is obfuscated. The Infdev+ mod was made using Bytecode editing with Recaf.</p>
+      <p>From b1.8, leading up until the server and client merge, the game had a line of code which stopped chunk loading past a certain point.</p>
+      <p>Since Infdev+ obviously uses b1.8's code, as a person who doesn't even know Java really, it was a challenge. Eventually I got instructions and ended up finding the line of code responsible.</p>
+      <b>I give thanks to these people for their efforts in helping me:</b>
+      <ul>
+        <li>314rft, for giving clues into which file it was.</li>
+        <li>&nbsp;</li>
+        <li>mikenotpike, for giving the final clue and answer to stopping chunk rendering from stopping at 30,000,064.</li>
+        <li>&nbsp;</li>
+        <li>Zero, for giving some help in a few places.</li>
+        <li>&nbsp;</li>
+        <li>icanttellyou, also for giving some help along the way.</li>
+        <li>&nbsp;</li>
+        <li>Method, for creating Infdev+ and allowing for me to come up with the MCUnlocked idea in the first place.</li>
+      </ul>
+    <b>World Rendering</b>
+    <p>Mainly with Zero's help, he directed me towards where the chunk rendering issues came from in b1.7.3.</p>
+    <p>This knowledge allowed for me to fix world rendering issues.</p>
+</div>
     </body>
 </html>
